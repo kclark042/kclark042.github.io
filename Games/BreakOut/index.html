@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+	<meta charset = "UTF-8">
+	<title>Breakout!</title>
+	
+	<link rel = "stylesheet" type = "text/css" href = "./game.css">
+</head>
+<body onload = "MyGame.game.initialize();">
+	<div id = "game">
+		<div id = "main-menu" class = "screen" style="padding-left: 0px;">
+			<ul class = "menu">
+				<li><button id = "id-continue-game">Continue</button></li>
+				<li><button id = "id-end-game">End Current Game</button></li>
+				<li><button id = "id-new-game">New&nbsp;Game</button></li>
+				<li><button id = "id-high-scores">High&nbsp;Scores</button></li>
+				<li><button id = "id-help">Help</button></li>
+				<li><button id = "id-about">About</button></li>
+			</ul>
+		</div>
+		<div id = "game-play" class = "screen">
+			<div style="position: absolute; display: inline-block; padding-left: 20px; padding-top: 1px;">
+				 <canvas id = "canvas-main" width = "1080" height = "600" style = "/*width: 80%; height: 70%;*/ background-color: rgba(0, 0, 0, 1); display: inline-block;">
+				 </canvas>
+				 
+	 		</div>
+	 		<div style="position: absolute; display: inline-block; padding-left: 1110px;">
+				 <label id="score" style="font-family: Arial, sans-serif; font-size: 0.48em;"></label>
+				 <ul class = "menu" >
+					<li><button id = "id-game-play-back" style="width: 4em;">Back</button></li>
+				</ul>
+	 		</div>
+		</div>
+		<div id = "high-scores" class = "screen" style="padding-left: 0px;">
+			<h1>High Scores</h1>
+				<label id="highScores" style="text-align: center; display: block;"></label>
+			<ul class = "menu">
+				<li><button id = "id-high-scores-reset">Reset Scores</button></li>
+				<li><button id = "id-high-scores-back">Back</button></li>
+			</ul>
+		</div>
+		<div id = "help" class = "screen" style="padding-left: 0px;">
+			<h1>Help</h1>
+			<p>Use the left and right arrow keys to move the paddle.</p>
+			<p>You will lose a life if a ball misses the paddle.</p>
+			<p>The paddle will half in size when you break through the top layer of bricks.</p>
+			<p>A second ball will appear if you reach 100 points.</p>
+			<p>You have three chances to break all of the bricks on the screen.</p>
+			<ul class = "menu">
+				<li><button id = "id-help-back">Back</button></li>
+			</ul>
+		</div>
+		<div id = "about" class = "screen" style="padding-left: 0px;">
+			<h1>About</h1>
+			<p>Developed by</p>
+			<p>Kristin Clark</p>
+			<p>With Help from Dr. Dean Mathias</p>
+			<p>And This Mozilla Developer Tutorial: </p>
+			<p>https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript</p>
+			<ul class = "menu">
+				<li><button id = "id-about-back">Back</button></li>
+			</ul>
+		</div>
+	</div>
+	
+	<script src = "./random.js"></script>
+	<script src = "./ParticleSystem.js"></script>
+	<script src = "./game.js"></script>
+	<script src = "./gameplay.js"></script>	
+	<script src = "./mainmenu.js"></script>
+	<script src = "./highscores.js"></script>
+	<script src = "./help.js"></script>
+	<script src = "./about.js"></script>
+</body>
+</html>

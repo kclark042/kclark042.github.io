@@ -1,0 +1,20 @@
+/*h1{
+	
+    
+    color: blue;
+
+}
+h2{
+	
+    
+    color: blue;
+
+}*/
+div{
+	color: blue;
+	position: fixed;
+	padding-left: 5px;
+    left: 815px;
+    right: 5px;
+    border: 3px solid black;
+}

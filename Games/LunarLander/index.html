@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lunarStyle.css"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Moon Lander</title>
+</head>
+<body>
+	<!-- <canvas id="textCanvas" width="200" height="400"> -->
+	<div >
+		<h1 >Welcome to the Lunar Lander!</h1>
+		<h2 >Press the Space Bar to Turn on the Engine</h2>
+		<h2 >You land safely if your incoming velocity is less than or equal to 5</h2>
+		<h2 >Watch your fuel too, you will fall to the face of the planet if you run out!</h2>	
+		<h3>Press the Start button below when you're ready to play</h3>
+		<input onclick="Game()"id="StartButton" type="button" value="Start"/>
+	</div>
+	<canvas  id= "lunarGame" width = "800" height="500" ></canvas>
+	 <script onload="drawSpace()" type="text/javascript" src = "lunarGame.js">
+	</script>
+</body>
+</html>

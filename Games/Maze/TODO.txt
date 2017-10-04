@@ -1,0 +1,5 @@
+Update to handle finding the shortest path where ever the player is. Currently only calculates once.
+
+Character animation
+
+Music/Sound effects

@@ -1,0 +1,4 @@
+Organize files.
+Revisit particle physics for better textures.
+Add sound and music
+Update main menu for better background and/or colors

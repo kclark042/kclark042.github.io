@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+	<link rel="stylesheet" type="text/css" href="mazeStyle.css"/>
+	<meta charset = "UTF-8">
+	<script src = "./maze.js"></script>
+</head>
+<!-- 
+castle image used from: 
+http://finalfantasy.wikia.com/wiki/Castle_Sasune -->
+<body onload = "initialize()" style="background-image: url('castle.jpeg'); background-size: 100%;">
+	<div style="position: absolute;  left: 230px; display: inline-block; float: left;  background-color: #DED9D9; border-color: black; border-style: solid; border-radius: 15px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 5px;">
+		<label style="padding-left: 10px; font-weight: bolder; font-size: large; font-family: fantasy;">New Game</label>
+		<br/>
+		<div style=" text-align: center;">
+			<input type="radio" name="mazeSize" id="5by5" value="5" onclick="sizeSelection()">05x05
+			<br/>
+			<input type="radio" name="mazeSize" id="10by10" value="10" onclick="sizeSelection()">10x10
+			<br/>
+			<input type="radio" name="mazeSize" id="15by15" value="15" onclick="sizeSelection()">15x15
+			<br/>
+			<input type="radio" name="mazeSize" id="20by20" value="20" onclick="sizeSelection()">20x20
+		</div>
+		<br/>
+	 	<label style="font-weight: bolder; font-size: large; font-family: fantasy;">High Scores</label>
+	 	<label id="scores" style="text-align: center; display: block; "></label>
+	</div>
+	 <canvas id = "canvas-main" width = "500" height = "470" style = "width: 50%; height: 50%; float: center; padding-left: 370px;">
+	 </canvas>
+	 <div style="position: absolute; right: 85px; display: inline-block; float: right; background-color: #DED9D9; border-color: black; border-style: solid; border-radius: 15px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 5px;">
+	 	<label style="font-weight: bolder; font-size: large; font-family: fantasy;">Time (seconds)</label>
+	 	<label id="time" style="text-align: center; display: block; "></label>
+	 	<br/>
+	 	<label style="padding-left: 35px; font-weight: bolder; font-size: large; font-family: fantasy;">Score</label>
+	 	<label id="currScore" style=" text-align: center; display: block; "></label>
+	 	<br/>
+	 </div>
+	 <br/>
+	 <label style="position: absolute; left: 550px; color:black; font-family: fantasy;">Created by Kristin Clark for CS 5410</label>
+</body>
+</html>
