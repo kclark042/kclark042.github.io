@@ -6,22 +6,20 @@
 	<script type="text/javascript" src="Slideshow.js"></script>
 </head>
 <body>
-	<div style="width: 70%; margin: auto; left:14%; position: absolute;">
-		<button class="tablink" onclick="location.href='index.html' " style="background-color: #777" >About Me</button>
-		<button class="tablink" onclick="location.href='Projects.html' ">Featured Projects</button>
-		<button class="tablink" onclick="location.href='Contact.html' ">Contact Me</button>
+	<div class="navbar">
+		<a href="index.html"> About Me</a>
+		<a href="Projects.html"> Featured Projects </a>
 	</div>
 
-	<div style="top: 12%;  width: 70%; margin: auto; left:14%; position: absolute;">
-		
-
-		<div style="background-color: #008080;">
+	<div class="main">
+		<div style="background-color: #008080; padding-bottom: 10%;">
+			<h1>About Me</h1>
 			<img src="Images/me.png" width="430" height="300" style="border-radius: 15px 15px 15px 15px; "> 
 			
 			<p><img src="Images/OldMainPhoto.jpg" alt="Old Main Utah State University Logan, UT" style="border-radius: 15px 15px 15px 15px">I graduated from Utah State University with a Bachelor's in Computer Science in May 2017.</p>
 		</div>
-		<div style="background-color: grey;">
-			<h1 style="text-align: center;">My Work Experience</h1> 
+		<div style="background-color: grey; padding-bottom: 10%">
+			<h1>My Work Experience</h1> 
 			<p>Student Employee at the Space Dynamics Laboratory from May 2016 to October 2017</p>
 			<img src="Images/sdlLogo.png" alt="Space Dynamics Laboratory Logo" width="700" height="150">
 			<p>Summer Intern at Intermountain Healthcare from May 2015 to Auguust 2015</p>
@@ -29,8 +27,8 @@
 			<p>Computer Science Tutor at Utah State University from January 2015 to December 2015</p>
 			<img src="Images/CS_Eng_Logo.png" alt="Utah State University Computer Science Logo" width="700" height="150">
 		</div>
-		<div style="background-color: #008080;">
-			<h1 style="text-align: center;">Languages and Other Technology</h1>
+		<div style="background-color: #008080; padding-bottom: 10%;">
+			<h1>Languages and Other Technology</h1>
 			<p>
 				<img src="Images/LanguageIcons/cplusplus.png" width="100" height="100"> Proficient
 				<img src="Images/LanguageIcons/javascript.png" width="100" height="100"> Proficient
@@ -46,10 +44,10 @@
 			<p><img src="Images/LanguageIcons/mysql.png" width="100" height="100"> Used about 4 Months</p>
 		</div>
 
-		<div style="top: 100%;  margin: auto;  position: absolute; width: 100%; padding-bottom: 50%; background-color: grey">
-			<h1 style="text-align: center;">My Hobbies</h1>
-				<div style="margin: auto; position: absolute; ">
-					<p>Reading</p>
+		<div style="padding-bottom: 10%; background-color: grey">
+			<h1>My Hobbies</h1>
+				<div style="padding-left: 2.5%; display: inline-block; ">
+					<h3>Reading</h3>
 					<img class="books" src="Images/Books/weeFreeMen.jpg" width="200" height="300" onload="showDivs(0, 'books')">
 					<img class="books" src="Images/Books/hitchhikers.jpg" width="200" height="300">
 					<img class="books" src="Images/Books/howls.jpg" width="200" height="300">
@@ -59,8 +57,8 @@
 					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'books')">&#10094;</button>
 					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'books')">&#10095;</button>
 				</div>
-				<div style="margin: auto; position: absolute; left: 25%; ">
-					<p>Movies</p>
+				<div style=" display: inline-block; padding-left: 1%;">
+					<h3 >Movies</h3>
 					<img class="movies" src="Images/Movies/scottPilgrim.jpg" width="200" height="300" onload="showDivs(0, 'movies')">
 					<img class="movies" src="Images/Movies/guardians.jpg" width="200" height="300">
 					<img class="movies" src="Images/Movies/mst3k.jpg" width="200" height="300">
@@ -69,8 +67,8 @@
 					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'movies')">&#10094;</button>
 					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'movies')">&#10095;</button>
 				</div>
-				<div style="margin: auto; position: absolute; left: 50%; ">
-					<p>Games</p>
+				<div style="display: inline-block; padding-left: 1%; ">
+					<h3 >Games</h3>
 					<img class="games" src="Images/Games/zelda.jpg" width="200" height="300" onload="showDivs(0,'games')">
 					<img class="games" src="Images/Games/rayman.jpg" width="200" height="300" ">
 					<img class="games" src="Images/Games/heroes.jpg" width="200" height="300" ">
@@ -79,16 +77,23 @@
 					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'games')">&#10094;</button>
 					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'games')">&#10095;</button>
 				</div>
-				<div style="margin: auto; position: absolute; left: 75%; ">
-					<p>Podcasts</p>
+				<div style=" display: inline-block; padding-left: 1%;">
+					<h3 style="padding-bottom: 50%">Podcasts</h3>
 					<img class="podcasts" src="Images/Podcasts/wwdtm.jpg" width="200" height="200" onload="showDivs(0,'podcasts')">
-					<img class="podcasts" src="Images/Podcasts/freakonomics.png" width="230" height="200">
+					<img class="podcasts" src="Images/Podcasts/freakonomics.png" width="200" height="200">
 					<img class="podcasts" src="Images/Podcasts/radiolab.png" width="200" height="200">
 					<img class="podcasts" src="Images/Podcasts/nerdist.png" width="200" height="200">
 					<img class="podcasts" src="Images/Podcasts/notSoSmart.jpg" width="200" height="200">
-					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'podcasts')" style="top: 140%; margin: auto; position: absolute;">&#10094;</button>
-					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'podcasts')" style="top: 140%; left: 20%; margin: auto; position: absolute; ">&#10095;</button>
+					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'podcasts')" >&#10094;</button>
+					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'podcasts')" >&#10095;</button>
 				</div>
+		</div>
+		<div style="background-color: #008080; padding-bottom: 10%">
+			<h1>Contact Me</h1>
+			<p> 
+				<button  onclick="location.href='https://www.linkedin.com/in/kristin-clark-719b0b143/' ">	LinkedIn</button> Find me on LinkedIn
+				<button  onclick="location.href='https://github.com/kclark042' ">GitHub</button> Find my projects on Github
+			</p>		
 		</div>
 	</div>
 </body>
