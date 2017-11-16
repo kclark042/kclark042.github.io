@@ -17,17 +17,7 @@
     background-color: #777;
 }
 
-
-.tablinkContent {
-    background-color: #555;
+body{
+    background-color: black;
     color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-}
-.tablinkContent:hover {
-    background-color: #777;
 }

@@ -6,76 +6,48 @@
 	<script type="text/javascript" src="Slideshow.js"></script>
 </head>
 <body>
-	<div style="width: 70%; margin: auto; left:20%; position: absolute;">
+	<div style="width: 70%; margin: auto; left:14%; position: absolute;">
 		<button class="tablink" onclick="location.href='index.html' " style="background-color: #777" >About Me</button>
 		<button class="tablink" onclick="location.href='Projects.html' ">Featured Projects</button>
 		<button class="tablink" onclick="location.href='Contact.html' ">Contact Me</button>
 	</div>
 
-		<div style="top: 9.3%;  width: 70%; margin: auto; left:20%; position: absolute;">
-			<img src="Images/me.png" width="430" height="300" style="border-radius: 15px 15px 15px 15px">
-		<div>
-			<p>I graduated from Utah State University with a Bachelor's in Computer Science in May 2017.</p> 
-			<img src="Images/OldMainPhoto.jpg" alt="Old Main Utah State University Logan, UT" style="border-radius: 15px 15px 15px 15px">
+	<div style="top: 12%;  width: 70%; margin: auto; left:14%; position: absolute;">
+		
+
+		<div style="background-color: #008080;">
+			<img src="Images/me.png" width="430" height="300" style="border-radius: 15px 15px 15px 15px; "> 
+			
+			<p><img src="Images/OldMainPhoto.jpg" alt="Old Main Utah State University Logan, UT" style="border-radius: 15px 15px 15px 15px">I graduated from Utah State University with a Bachelor's in Computer Science in May 2017.</p>
 		</div>
-		<div>
-			<p>My work experience includes:</p> 
+		<div style="background-color: grey;">
+			<h1 style="text-align: center;">My Work Experience</h1> 
 			<p>Student Employee at the Space Dynamics Laboratory from May 2016 to October 2017</p>
-			<img src="Images/sdlLogo.png" alt="Space Dynamics Laboratory Logo">
+			<img src="Images/sdlLogo.png" alt="Space Dynamics Laboratory Logo" width="700" height="150">
 			<p>Summer Intern at Intermountain Healthcare from May 2015 to Auguust 2015</p>
 			<img src="Images/ihcLogo.png" alt="Intermount Healthcare Logo" width="300" height="200">  
 			<p>Computer Science Tutor at Utah State University from January 2015 to December 2015</p>
 			<img src="Images/CS_Eng_Logo.png" alt="Utah State University Computer Science Logo" width="700" height="150">
 		</div>
-		<div>
-			<p>The languages and other technologies I know are:</p>
-			<table border=1 frame="border"  rules="all" align="left" cellpadding="3px">
-				<tr>
-					<th>Language</th>
-					<th>Proficiency</th>
-				</tr>
-				<tr>
-					<td>C++</td>
-					<td>Proficent</td>
-				</tr>
-				<tr>
-					<td>Javascript</td>
-					<td>Proficient</td>
-				</tr>
-				<tr>
-					<td>HTML/CSS</td>
-					<td>Proficient</td>
-				</tr>
-				<tr>
-					<td>C#</td>
-					<td>Familiar</td>
-				</tr>
-				<tr>
-					<td>Python</td>
-					<td>Familiar</td>
-				</tr>
-				<tr>
-					<td>Git</td>
-					<td>Familiar</td>
-				</tr>
-				<tr>
-					<td>Linux</td>
-					<td>Familiar</td>
-				</tr>
-				<tr>
-					<td>Java</td>
-					<td>Used about 4 Months</td>
-				</tr>
-				<tr>
-					<td>SQL</td>
-					<td>Used about 2 Months</td>
-				</tr>
-			</table>
+		<div style="background-color: #008080;">
+			<h1 style="text-align: center;">Languages and Other Technology</h1>
+			<p>
+				<img src="Images/LanguageIcons/cplusplus.png" width="100" height="100"> Proficient
+				<img src="Images/LanguageIcons/javascript.png" width="100" height="100"> Proficient
+				<img src="Images/LanguageIcons/htmlAndCss.png" width="130" height="100"> Proficient
+				<img src="Images/LanguageIcons/csharp.png" width="100" height="100"> Familiar
+			</p>
+			<p>
+				<img src="Images/LanguageIcons/python.png" width="100" height="100"> Familiar
+				<img src="Images/LanguageIcons/git.png" width="100" height="100"> Familiar
+				<img src="Images/LanguageIcons/linuxMint.png" width="100" height="100"> Familiar
+				<img src="Images/LanguageIcons/java.png" width="100" height="100"> Used about 4 Months
+			</p>
+			<p><img src="Images/LanguageIcons/mysql.png" width="100" height="100"> Used about 4 Months</p>
 		</div>
-	<!-- </div>
-	<div style="top: 250%;  width: 70%; margin: auto; left:20%; position: absolute;"> -->
-		<div style="top: 100%;  margin: auto;  position: absolute; width: 100%; padding-bottom: 50%">
-			<p>My Hobbies are:</p>		
+
+		<div style="top: 100%;  margin: auto;  position: absolute; width: 100%; padding-bottom: 50%; background-color: grey">
+			<h1 style="text-align: center;">My Hobbies</h1>
 				<div style="margin: auto; position: absolute; ">
 					<p>Reading</p>
 					<img class="books" src="Images/Books/weeFreeMen.jpg" width="200" height="300" onload="showDivs(0, 'books')">
@@ -114,8 +86,8 @@
 					<img class="podcasts" src="Images/Podcasts/radiolab.png" width="200" height="200">
 					<img class="podcasts" src="Images/Podcasts/nerdist.png" width="200" height="200">
 					<img class="podcasts" src="Images/Podcasts/notSoSmart.jpg" width="200" height="200">
-					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'podcasts')">&#10094;</button>
-					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'podcasts')">&#10095;</button>
+					<button class="w3-button w3-display-left" onclick="plusDivs(-1, 'podcasts')" style="top: 140%; margin: auto; position: absolute;">&#10094;</button>
+					<button class="w3-button w3-display-right" onclick="plusDivs(1, 'podcasts')" style="top: 140%; left: 20%; margin: auto; position: absolute; ">&#10095;</button>
 				</div>
 		</div>
 	</div>
