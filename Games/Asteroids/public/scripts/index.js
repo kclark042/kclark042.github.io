@@ -13,16 +13,16 @@ MyGame.scoreHandler = (function() {
 		return that.highScores;
 	}
 	 that.getScores = function() {
-		$.ajax({
-			url: 'http://localhost:3000/v1/scores',
-			cache: false,
-			type: 'GET',
-			error: function() { alert('GET failed'); },
-			success: function(data) {
-				that.highScores = data;
+		// $.ajax({
+		// 	url: 'http://localhost:3000/v1/scores',
+		// 	cache: false,
+		// 	type: 'GET',
+		// 	error: function() { alert('GET failed'); },
+		// 	success: function(data) {
+		// 		that.highScores = data;
 
-			}
-		});
+		// 	}
+		// });
 	}	
 
 	that.addScore = function(score,name,id){
@@ -32,14 +32,14 @@ MyGame.scoreHandler = (function() {
 			name : name,
 		};
 
-		$.ajax({
-			url: 'http://localhost:3000/v1/scores?scores=' + data.score+'&name='+data.name+'&id='+data.id,
-			type: 'POST',
-			error: function() { alert('POST failed'); },
-			success: function() {
-				that.getScores();
-			}
-		});
+		// $.ajax({
+		// 	url: 'http://localhost:3000/v1/scores?scores=' + data.score+'&name='+data.name+'&id='+data.id,
+		// 	type: 'POST',
+		// 	error: function() { alert('POST failed'); },
+		// 	success: function() {
+		// 		that.getScores();
+		// 	}
+		// });
 	}
 
 	return that;
