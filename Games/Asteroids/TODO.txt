@@ -1,3 +1,4 @@
 Add option to change the rate of rotation
 Fix Smart enemy firing (angle is currently a little off)
 Add better particle physics textures
+Fix the server so it either works with github hosting the files or is smart enough to use either.
