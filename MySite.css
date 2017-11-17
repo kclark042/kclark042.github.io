@@ -2,6 +2,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'verdana'; 
 }
 .navbar {
     overflow: hidden;
@@ -22,6 +23,15 @@ body{
 }
 .navbar a:hover{
     background-color: #777;
+}
+
+.style1{
+    height: 2px;
+    background: grey
+}
+.style2{
+    height: 2px;
+    background: #008080;
 }
 
 .main {
@@ -45,6 +55,7 @@ h3{
 
 p{
     text-align: center;
+
 }
 
 .display{
