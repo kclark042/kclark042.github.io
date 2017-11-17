@@ -27,7 +27,7 @@ body{
 .main {
     padding-top: 3%;
     left: 14%;
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -36,8 +36,77 @@ video{
 }
 
 h1{
+    padding-top: 2.5%;
     text-align: center;
 }
 h3{
     text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.display{
+    margin-top: 5px;
+    border: 2px solid #008080;
+    padding: .5px 45px;
+}
+
+.display:hover{
+    background-color: #008080;
+    color: white;
+}
+
+.contact{
+    border: 2px solid grey;
+    padding: 5px 55px;
+}
+.contact:hover{
+    background-color: grey;
+    color: white;
+}
+
+.playGame1{
+    border: 2px solid grey;
+    padding: .5px 45px;
+}
+.playGame1:hover{
+    background-color: grey;
+    color: white;
+}
+
+.playGame2{
+    border: 2px solid #008080;
+    padding: .5px 45px;
+}
+.playGame2:hover{
+    background-color: #008080;
+    color: white;
+}
+/* quick fix to make sure the sizes of the videos are the same when its hovered*/
+.game1{
+    border: 4px solid #008080;
+}
+.game1:hover{
+    border: 4px solid grey;
+}
+.game2{
+    border: 4px solid grey;
+}
+.game2:hover{
+    border: 4px solid #008080;
+}
+
+img.books{
+    border: 3px solid #008080;
+}
+img.games{
+    border: 3px solid #008080;
+}
+img.movies{
+    border: 3px solid #008080;
+}
+img.podcasts{
+    border: 3px solid #008080;
 }

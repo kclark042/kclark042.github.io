@@ -10,20 +10,45 @@
 		<a href="Projects.html"> Featured Projects </a>
 	</div>
 	<div class="main">
-		<div style=" background-color:  #008080;" >
+		<div style=" background-color:  #008080; padding-bottom: 4%;" >
 			<h1 >Lunar Lander</h1>
-			<video src="VideoExamples/lunarLanderExample.mov" height="210" width="400" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/LunarLander/index.html' "></video>
-			<button onclick="location.href='./Games/LunarLander/index.html' ">Play</button>
+			<div style="display: inline-block; padding-left: 6%">
+				<video class="game1" src="VideoExamples/lunarLanderExample.mov" height="145" width="346" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/LunarLander/index.html' "></video>
+				<button class="playGame1" onclick="location.href='./Games/LunarLander/index.html' " style="display: block; margin:  auto;">Play</button>	
+			</div>
+			<div style="display: inline-block; width: 50%; padding-left: 1%; vertical-align: 72.5px;">
+				The first Javascript game that I worked on. This is a simple game where the goal is to land a rocket safely on the planet. If the velocity is too high then you crash and lose.
+			</div>			
 		</div>
-		<div style="background-color: grey;">
+		<div style="background-color: grey; padding-bottom: 4%">
 			<h1 >Maze</h1>
-			<video src="VideoExamples/mazeExample.mov" height="210" width="400" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/Maze/index.html' "></video>
-			<button onclick="location.href='./Games/Maze/index.html' ">Play</button>
+			<div style="display: inline-block; padding-left: 10%">
+				<video class="game2" src="VideoExamples/mazeExample.mov" height="145" width="305" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/Maze/index.html' "></video>
+				<button class="playGame2" onclick="location.href='./Games/Maze/index.html' " style="display: block; margin:  auto;">Play</button>
+			</div>
+			<div style="display: inline-block; width: 50%; padding-left: 1%; vertical-align: 50px">
+				This is a maze game that I worked on for my Game Development class. A new maze in generated each time and the shortest path to the goal can be displayed by pressing 'p'. You can also display where you have been by pressing 'b'. You can move the character by using the arrow keys, AWSD, or JIKL.
+			</div>
 		</div>
-		<div style="background-color:  #008080;">
+		<div style="background-color:  #008080; padding-bottom: 4%">
 			<h1 >Break Out</h1>
-			<video src="VideoExamples/breakoutExample.mov" height="210" width="400" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/Breakout/index.html' "></video>
-			<button onclick="location.href='./Games/BreakOut/index.html' ">Play</button>
+			<div style="display: inline-block; padding-left: 10%">
+				<video class="game1" src="VideoExamples/breakoutExample.mov" height="145" width="305" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/Breakout/index.html' " ></video>
+				<button class="playGame1" onclick="location.href='./Games/BreakOut/index.html' " style="display: block; margin:  auto;">Play</button>
+			</div>
+			<div style="display: inline-block; width: 50%; padding-left: 1%; vertical-align: 55px">
+				This was another game that I worked on for my Game Development class. The player uses the left and right arrow keys to control the paddle. The paddle will half in size when the top layer of bricks is broken through. A second ball will appear when the player reaches 100 points.
+			</div>
+		</div>
+		<div style="background-color: grey; padding-bottom: 4%">
+			<h1 >Asteroids</h1>
+			<div style="display: inline-block; padding-left: 10%">
+				<video class="game2" src="VideoExamples/asteroidsExample.mov" height="145" width="305" loop="true" muted="true" onmouseover="play()" onmouseleave="pause()" onclick="location.href='./Games/Asteroids/public/index.html' "></video>
+				<button class="playGame2" onclick="location.href='./Games/Asteroids/public/index.html' " style="display: block; margin:  auto;">Play</button>
+			</div>
+			<div style="display: inline-block; width: 50%; padding-left: 1%; vertical-align: 65px">
+				This is the last game that I worked on for my Game Development class. This was my version of the classic Asteroids game. The player can map the controls but the default is 'a' for rotating left, 'd' for rotating right, and 'w' to fire, and 's' to accelerate. 
+			</div>
 		</div>
 	</div>			 
 </body>

@@ -1,0 +1,134 @@
+body {
+	color: rgba(224,224,224);
+	margin: 0;
+	background-image: url('../images/background.jpeg');
+	background-color: rgb(224,224,224);
+
+}
+#help{
+
+	position: absolute;
+	right: 200px;
+	background-color: rgba(224,224,224,0.0);
+}
+
+#game {
+	position: absolute;
+	left: 450px;
+	top: 30px;
+	width: 350px;
+	height: 350px;
+	/*background-image: url('../images/background.jpeg');*/
+	background-color: rgba(224,224,224,0.0);
+	font-size: 40px;
+}
+#id-game-play-back{
+	/*display: inline-block;*/
+	width: 5em;
+}
+#game-play{
+	right: 250px;
+	bottom: 28px;
+}
+
+#id-help-back{
+	position: absolute;
+	left: 300px;
+}
+
+#game .screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 10;
+}
+
+#game .screen.active {
+	display: block;
+}
+
+#main-menu {
+	padding-top: 1em;
+	cursor: pointer;
+	font-size: 0.75em;
+}
+
+ul.menu {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.menu li {
+	margin: 0.8em 0;
+}
+
+ul.menu li button {
+	font-family: Arial, sans-serif;
+	font-size: 0.6em;
+	color: #CECEF6;
+	width: 10em;
+	height: 1.5em;
+	background: #0404B4;
+	border: 0.1em solid rgb(0, 204, 204);
+	border-radius: 0.5em;
+	box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+}
+
+ul.menu li button:hover {
+	background: #2E2EFE;
+}
+
+ul.menu li button:active {
+	color: #CECEF6;
+	background: rgb(0, 0, 0);
+}
+
+#game div h1 {
+	font-family: 'Palatino Linotype';
+	font-size: 1em;
+	text-align: center;
+
+
+}
+
+#high-scores ol {
+	font-family: 'Palatino Linotype';
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+}
+
+#game div p {
+
+	font-family: 'Palatino Linotype';
+	font-size: 0.5em;
+}
+
+#about p {
+	font-family: 'Palatino Linotype';
+	text-align: center;
+}
+#options label{
+	font-family: 'Palatino Linotype';
+	text-align: right;
+	margin-top: 12px;
+}
+#options input{
+	font-family: 'Palatino Linotype';
+	height: 20px;
+	width: 120px;
+	/*width: 30px;*/
+	font-size: 0.5em;
+	padding-left: 15px;
+	margin-top: 8px;
+	float: right;
+	border: 0.1em solid rgb(0, 0, 0);
+	border-radius: 0.5em;
+	outline: none;
+	text-align: center;
+}

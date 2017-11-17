@@ -1,0 +1,3 @@
+Add option to change the rate of rotation
+Fix Smart enemy firing (angle is currently a little off)
+Add better particle physics textures
