@@ -32,6 +32,39 @@ body{
     margin: auto;
 }
 
+.card-a {
+    background-color: #008080;
+    padding-bottom: 4%;
+}
+
+.card-a hr {
+    height: 8px;
+    background-color: grey;
+}
+
+.card-b {
+    background-color: grey;
+    padding-bottom: 4%;
+}
+
+.card-b hr {
+    height: 8px;
+    background-color: #008080;
+}
+
+.experience-container {
+    display: flex;
+    align-items: baseline;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 video{
     left: 15%;
 }
@@ -46,7 +79,6 @@ h3{
 
 p{
     text-align: center;
-
 }
 
 .display{
@@ -100,15 +132,18 @@ p{
     border: 4px solid #008080;
 }
 
-img.books{
-    border: 3px solid #008080;
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
 }
-img.games{
+.hobbies img {
     border: 3px solid #008080;
+    width: 200px;
+    height: 300px;
 }
-img.movies{
-    border: 3px solid #008080;
-}
-img.podcasts{
-    border: 3px solid #008080;
+
+.hobbies img.podcasts {
+    height: 200px;
 }
