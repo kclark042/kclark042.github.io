@@ -54,15 +54,21 @@ body{
 
 .experience-container {
     display: flex;
-    align-items: baseline;
-    margin-left: 16px;
-    margin-right: 16px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .experience {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid black;
+    background-color: #008080;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width:50%;
+
 }
 
 video{
