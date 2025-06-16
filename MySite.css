@@ -71,6 +71,11 @@ body{
 
 }
 
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
 video{
     left: 15%;
 }
@@ -141,8 +146,8 @@ p{
 .hobbies {
     display: flex;
     justify-content: space-between;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 2rem;
+    flex-wrap: wrap;
 }
 .hobbies img {
     border: 3px solid #008080;
